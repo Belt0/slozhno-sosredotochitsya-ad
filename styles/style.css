@@ -116,7 +116,6 @@
 .header__text {
   grid-column: 1 / 3;
   justify-content: end;
-  display: inline-block;
 }
 
 .main {
@@ -125,7 +124,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: column;
-  row-gap: 50px;
+  gap: 50px;
 }
 
 .topic {
@@ -148,7 +147,7 @@
   display: grid;
   grid-template-rows: min-content auto;
   grid-auto-flow: row;
-  row-gap: 10px;
+  gap: 10px;
 }
 
 .title_decor {
@@ -219,7 +218,7 @@
   .main {
     margin-block: 60px;
     padding-inline: 20px;
-    row-gap: 80px;
+    gap: 80px;
   }
 
   .topic {
